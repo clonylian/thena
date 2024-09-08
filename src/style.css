@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/Inter-Regular.ttf");
+}
+@font-face {
+  font-family: "InterMedium";
+  src: url("./assets/Inter-Medium.ttf");
+}
+@font-face {
+  font-family: "IntersMedium";
+  src: url("./assets/Inter-SemiBold.ttf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Inter";
+  background-color: rgb(13 9 15);
+  font-size: 1rem;
+  line-height: 1.25;
+  color: rgb(243 242 244);
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.jus {
+  justify-content: space-between;
+}
+.flexcol {
+  flex-direction: column;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+input {
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 1250px) {
+  #app {
+    width: 100%;
+    overflow: hidden;
+  }
+}
